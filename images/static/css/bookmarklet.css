@@ -49,6 +49,6 @@
 
 #bookmarklet .images img.selected,
 #bookmarklet .images img:hover {
-    border:1px solid #12c064;
+    border:1px solid rgb(0, 106, 255);
     opacity:1;
 }

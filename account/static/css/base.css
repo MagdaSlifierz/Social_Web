@@ -38,9 +38,9 @@ ol {
 #header {
     padding:10px 100px;
     font-size:14px;
-    background:#12c064;
+    background:rgb(0, 106, 255);
     color:#fff;
-    border-bottom:4px solid #1cdf78;
+    border-bottom:4px solid rgb(0, 85, 255);;
     overflow:auto;
 }
 
@@ -111,7 +111,7 @@ input, textarea {
 }
 input[type=submit], a.button {
     font-weight:bold;
-    background:#12c064;
+    background:rgb(0, 106, 255);
     color:#fff;
     padding:10px 20px;
     font-size:14px;
@@ -148,7 +148,7 @@ ul.messages li.info {
 }
 
 ul.messages li.success { background:#81ce81; }
-ul.messages li.success a { color:#0ac33e; }
+ul.messages li.success a { color:rgb(0, 106, 255); }
 
 ul.messages li.error { background:#a30029; color:#e9828e; }
 ul.messages li.error a { color:#e9828e; }
@@ -219,7 +219,7 @@ a.like, a.follow { float:right; margin-top:-8px; }
     width:220px;
     height:300px;
     margin:0 10px 10px 10px;
-    border-top:8px solid #12c064;
+    border-top:8px solid rgb(0, 106, 255);
     background:#eee;
 }
 #image-list img { width:220px; height:220px; }
