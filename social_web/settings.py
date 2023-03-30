@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+from django.urls import reverse_lazy
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -32,6 +33,7 @@ ALLOWED_HOSTS = ['mysite.com', 'localhost','127.0.0.1']
 
 INSTALLED_APPS = [
     'account.apps.AccountConfig',
+    'actions.apps.ActionsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +44,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'images.apps.ImagesConfig',
     'easy_thumbnails',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
@@ -106,6 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 
+
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
@@ -148,6 +152,13 @@ SOCIAL_AUTH_FACEBOOK_SECRET = '4b2a4f9afd215e8bd0d16659450171e2'
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '1054694248482-c7smqeqfva2nh67206khuamp1cntjmgv.apps.googleusercontent.com' # Google Client ID
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+
+
+
+ABSOLUTE_URL_OVERRIDES = {
+    'auth.user': lambda u: reverse_lazy('user_detail',
+                                        args=[u.username])
+}
 
 LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
