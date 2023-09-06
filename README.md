@@ -18,3 +18,14 @@ The repository includes instructions for creating a JavaScript bookmarklet, enab
 
 The project incorporates a follow system and user activity stream. Users can follow other users and receive updates on their activities. Redis, a fast I/O storage, is integrated into the project to store item views. Additionally, relevant optimizations and debugging tools are utilized to improve performance.
 
+## Website Demo
+
+<img width="1440" alt="Screenshot 2023-09-06 at 1 01 14 PM" src="https://github.com/MagdaSlifierz/Social_Web/assets/49603115/7c6f7bc4-c6f3-46e6-98ff-3d9ffb1251f8">
+
+<img width="1440" alt="Screenshot 2023-09-06 at 10 57 33 AM" src="https://github.com/MagdaSlifierz/Social_Web/assets/49603115/de8b14de-8094-4f6c-89ff-093fc7a9a325">
+
+<img width="1440" alt="Screenshot 2023-09-06 at 1 02 21 PM" src="https://github.com/MagdaSlifierz/Social_Web/assets/49603115/162f5c0f-6cb2-4803-aec8-19de0109cd54">
+
+<img width="1440" alt="Screenshot 2023-09-06 at 10 01 02 AM" src="https://github.com/MagdaSlifierz/Social_Web/assets/49603115/22079075-9798-4f4b-813f-681272a01be3">
+
+<img width="1440" alt="Screenshot 2023-09-06 at 1 03 00 PM" src="https://github.com/MagdaSlifierz/Social_Web/assets/49603115/e1aade26-ad2e-4a4e-93e3-104f5fd4a83d">
